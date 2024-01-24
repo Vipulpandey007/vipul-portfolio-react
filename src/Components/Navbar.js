@@ -27,7 +27,7 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`fixed w-full  left-0 top-0 z-[999] ${
+      className={`fixed w-full  left-0 top-0 z-50 ${
         sticky ? "bg-gray-500 text-black dark:bg-gray-900 dark:text-white" : ""
       }`}
     >
