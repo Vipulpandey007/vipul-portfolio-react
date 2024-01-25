@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full  left-0 top-0 z-50 ${
-        sticky ? "bg-gray-500 text-black dark:bg-gray-900 dark:text-white" : ""
+        sticky ? "bg-[#e4e5f1] text-black dark:bg-gray-900 dark:text-white" : ""
       }`}
     >
       <div className="flex items-center justify-between">
@@ -38,7 +38,7 @@ const Navbar = () => {
           </h4>
         </div>
         <div
-          className={`md:block hidden px-7 font-medium bg-gray-500 text-black dark:bg-gray-900 dark:text-white rounded-bl-full p-2`}
+          className={`md:block hidden px-7 font-medium bg-[#e4e5f1] text-black dark:bg-gray-900 dark:text-white rounded-bl-full p-2`}
         >
           <ul className="flex items-center gap-10 p-5 text-lg">
             {navLinksdata.map(({ _id, title, link }) => (

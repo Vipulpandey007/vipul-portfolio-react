@@ -10,7 +10,6 @@ const Education = () => {
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4"></div>
         <div className="mt-6 lgl:mt-14 w-full  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Master Of Computer Application (MCA)"
@@ -25,13 +24,13 @@ const Education = () => {
             des="Completed Bachelor of computer application from Gossner College, Ranchi."
           />
           <ResumeCard
-            title="XII"
+            title="Class - XII"
             subTitle="2017"
             result="69%"
             des="Completed Class XII from Heritage International School, Daltonganj  ."
           />
           <ResumeCard
-            title="X"
+            title="Class - X"
             subTitle="2015"
             result="8.6 CGPA"
             des="Completed Class X from V.P.M Gyan Niketan School, Daltonganj  ."

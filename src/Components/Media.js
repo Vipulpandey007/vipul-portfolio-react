@@ -1,6 +1,12 @@
-import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
+import {
+  FaLinkedinIn,
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaBootstrap,
+} from "react-icons/fa";
+import { SiTailwindcss, SiGmail } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between  dark:text-white">
@@ -8,13 +14,23 @@ const Media = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a
+              href="https://github.com/Vipulpandey007"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a href="www.linkedin.com/in/vipul708/">
+              <FaLinkedinIn />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href="mailto:vipulpandey708@gmail.com">
+              <SiGmail />
+            </a>
           </span>
         </div>
       </div>
@@ -27,13 +43,16 @@ const Media = () => {
             <FaReact />
           </span>
           <span className="bannerIcon">
-            <SiNextdotjs />
+            <FaHtml5 />
+          </span>
+          <span className="bannerIcon">
+            <FaCss3Alt />
           </span>
           <span className="bannerIcon">
             <SiTailwindcss />
           </span>
           <span className="bannerIcon">
-            <SiFigma />
+            <FaBootstrap />
           </span>
         </div>
       </div>

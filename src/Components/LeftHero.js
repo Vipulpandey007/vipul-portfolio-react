@@ -15,7 +15,7 @@ const LeftHero = () => {
       <div className="flex flex-col gap-5 dark:text-white">
         <h4 className=" text-lg font-normal">WELCOME TO MY Profile</h4>
         <h1 className="text-6xl font-bold ">
-          Hi, I'm{" "}
+          Hi, I'm
           <span className="text-designColor capitalize">Vipul Pandey</span>
         </h1>
         <h2 className="text-4xl font-bold">
@@ -31,7 +31,6 @@ const LeftHero = () => {
           animated websites that will make user experience good.
         </p>
       </div>
-      {/* Media */}
       <Media />
     </div>
   );

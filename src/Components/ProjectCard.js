@@ -5,7 +5,7 @@ const ProjectCard = ({ title, des, src, git, link }) => {
   return (
     <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg  flex flex-col shadow-2xl shadow-gray-600 dark:shadow-black dark:bg-gray-900">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noreferrer">
           <img
             className="w-full h-60  hover:scale-110 duration-300 cursor-pointer object-contain"
             src={src}
@@ -21,12 +21,12 @@ const ProjectCard = ({ title, des, src, git, link }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-white  dark:bg-black border border-red-500 inline-flex justify-center items-center text-black dark:text-white hover:scale-110 duration-300 cursor-pointer">
-                <a href={git} target="_blank">
+                <a href={git} target="_blank" rel="noreferrer">
                   <BsGithub />
                 </a>
               </span>
               <span className="text-lg w-10 h-10 rounded-full bg-white  dark:bg-black border border-red-500 inline-flex justify-center items-center text-black dark:text-white hover:scale-110 duration-300 cursor-pointer">
-                <a href={link} target="_blank">
+                <a href={link} target="_blank" rel="noreferrer">
                   <FaGlobe />
                 </a>
               </span>
