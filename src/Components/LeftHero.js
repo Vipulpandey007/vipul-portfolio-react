@@ -32,6 +32,13 @@ const LeftHero = () => {
         </p>
       </div>
       <Media />
+      <div>
+        <a>
+          <span className="w-40 h-16 shadow-2xl shadow-black dark:shadow-gray-500 text-black dark:text-white text-xl inline-flex items-center justify-center rounded-md   hover:-translate-y-1 transition-all hover:text-red-700 cursor-pointer duration-300">
+            Resume
+          </span>
+        </a>
+      </div>
     </div>
   );
 };
