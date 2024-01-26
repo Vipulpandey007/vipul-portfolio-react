@@ -10,7 +10,7 @@ import { SiTailwindcss, SiGmail } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between  dark:text-white">
-      <div>
+      <div className="mr-10">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
