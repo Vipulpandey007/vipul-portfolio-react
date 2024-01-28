@@ -58,7 +58,7 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-            <div onClick={handleThemeSwitch}>
+            <div onClick={handleThemeSwitch} className="cursor-pointer">
               {theme === "dark" ? <IoMdSunny /> : <FaMoon />}
             </div>
           </ul>
