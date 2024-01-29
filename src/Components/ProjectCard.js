@@ -20,16 +20,20 @@ const ProjectCard = ({ title, des, src, git, link }) => {
               {title}
             </h3>
             <div className="flex gap-2">
-              <span className="text-lg w-10 h-10 rounded-full bg-white  dark:bg-black border border-red-500 inline-flex justify-center items-center text-black dark:text-white hover:scale-110 duration-300 cursor-pointer">
-                <a href={git} target="_blank" rel="noreferrer">
-                  <BsGithub />
-                </a>
-              </span>
-              <span className="text-lg w-10 h-10 rounded-full bg-white  dark:bg-black border border-red-500 inline-flex justify-center items-center text-black dark:text-white hover:scale-110 duration-300 cursor-pointer">
-                <a href={link} target="_blank" rel="noreferrer">
-                  <FaGlobe />
-                </a>
-              </span>
+              {git && (
+                <span className="text-lg w-10 h-10 rounded-full bg-white  dark:bg-black border border-red-500 inline-flex justify-center items-center text-black dark:text-white hover:scale-110 duration-300 cursor-pointer">
+                  <a href={git} target="_blank" rel="noreferrer">
+                    <BsGithub />
+                  </a>
+                </span>
+              )}
+              {link && (
+                <span className="text-lg w-10 h-10 rounded-full bg-white  dark:bg-black border border-red-500 inline-flex justify-center items-center text-black dark:text-white hover:scale-110 duration-300 cursor-pointer">
+                  <a href={link} target="_blank" rel="noreferrer">
+                    <FaGlobe />
+                  </a>
+                </span>
+              )}
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 text-black dark:text-white">

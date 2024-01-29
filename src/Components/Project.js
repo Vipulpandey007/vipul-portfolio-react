@@ -29,7 +29,7 @@ const Project = () => {
           des=" Large scalable movie trailer streaming react app ui made just like Netflix with built in gpt search feature using Openai.
           "
           src={streamvideo}
-          link="https://streamvideo-dddca.web.app/browse"
+          link="https://streamvideo-dddca.web.app"
           git="https://github.com/Vipulpandey007/stream-video"
         />
         <ProjectCard
