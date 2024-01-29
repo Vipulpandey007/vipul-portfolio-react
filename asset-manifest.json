@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vipul-portfolio-react/static/css/main.ac203765.css",
+    "main.js": "/vipul-portfolio-react/static/js/main.2790023c.js",
+    "static/js/787.7da95b79.chunk.js": "/vipul-portfolio-react/static/js/787.7da95b79.chunk.js",
+    "static/media/gcran.png": "/vipul-portfolio-react/static/media/gcran.b8f351de5588c3124d9e.png",
+    "static/media/vipultube.png": "/vipul-portfolio-react/static/media/vipultube.d83ffeac508d5cc8f051.png",
+    "static/media/swiggy.png": "/vipul-portfolio-react/static/media/swiggy.bd28afa996309d3ebff6.png",
+    "static/media/stream-video.png": "/vipul-portfolio-react/static/media/stream-video.135aeaeaec67d11603de.png",
+    "static/media/bannerimg.png": "/vipul-portfolio-react/static/media/bannerimg.ac6c8cd927ee5b98904e.png",
+    "index.html": "/vipul-portfolio-react/index.html",
+    "main.ac203765.css.map": "/vipul-portfolio-react/static/css/main.ac203765.css.map",
+    "main.2790023c.js.map": "/vipul-portfolio-react/static/js/main.2790023c.js.map",
+    "787.7da95b79.chunk.js.map": "/vipul-portfolio-react/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac203765.css",
+    "static/js/main.2790023c.js"
+  ]
+}
