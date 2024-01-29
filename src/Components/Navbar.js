@@ -66,7 +66,7 @@ const Navbar = () => {
         <div
           className={`text-3xl md:hidden mx-5 p-5 text-black dark:text-white flex flex-row`}
         >
-          <div onClick={handleThemeSwitch} className="mr-2">
+          <div onClick={handleThemeSwitch} className="mr-5">
             {theme === "dark" ? <IoMdSunny /> : <FaMoon />}
           </div>
           <GiHamburgerMenu onClick={() => setmMenu(!mMenu)} />
