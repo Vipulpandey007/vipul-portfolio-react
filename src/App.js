@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner";
+import Certificate from "./Components/Certificate";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
@@ -13,6 +14,7 @@ function App() {
         <Banner />
         <Project />
         <Resume />
+        <Certificate />
         <Contact />
         <Footer />
       </div>
