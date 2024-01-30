@@ -6,7 +6,7 @@ import { MdClose } from "react-icons/md";
 import { IoMdSunny } from "react-icons/io";
 import { FaLinkedinIn, FaMoon } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
-import SiGmail from "react-icons/si";
+import { SiGmail } from "react-icons/si";
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [mMenu, setmMenu] = useState(false);
