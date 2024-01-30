@@ -4,7 +4,9 @@ import { navLinksdata } from "../Constants/NavItems";
 import { Link } from "react-scroll";
 import { MdClose } from "react-icons/md";
 import { IoMdSunny } from "react-icons/io";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaMoon } from "react-icons/fa";
+import { FaLinkedinIn, FaMoon } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
+import SiGmail from "react-icons/si";
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [mMenu, setmMenu] = useState(false);
@@ -108,13 +110,23 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4 px-16">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                    <a
+                      href="https://github.com/Vipulpandey007"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <BsGithub />
+                    </a>
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                    <a href="www.linkedin.com/in/vipul708/">
+                      <FaLinkedinIn />
+                    </a>
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn />
+                    <a href="mailto:vipulpandey708@gmail.com">
+                      <SiGmail />
+                    </a>
                   </span>
                 </div>
               </div>
