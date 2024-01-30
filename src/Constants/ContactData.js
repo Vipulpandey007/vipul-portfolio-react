@@ -22,7 +22,7 @@ export const Contactdata = [
   {
     id: 2,
     icon: <FaLinkedinIn />,
-    link: "www.linkedin.com/in/vipul708/",
+    link: "https://linkedin.com/in/vipul708/",
     title: "Linkedin",
     des: "Connect With Me On:- www.linkedin.com/in/vipul708/",
   },
