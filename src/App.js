@@ -1,3 +1,4 @@
+import About from "./Components/About";
 import Banner from "./Components/Banner";
 import Certificate from "./Components/Certificate";
 import Contact from "./Components/Contact";
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
+        <About />
         <Project />
         <Resume />
         <Certificate />
