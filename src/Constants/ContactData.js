@@ -20,22 +20,10 @@ export const Contactdata = [
     des: "Connect With Me On:- https://github.com/Vipulpandey007",
   },
   {
-    id: 2,
+    id: 3,
     icon: <FaLinkedinIn />,
     link: "https://linkedin.com/in/vipul708/",
     title: "Linkedin",
     des: "Connect With Me On:- www.linkedin.com/in/vipul708/",
-  },
-  {
-    id: 3,
-    icon: <IoCallSharp />,
-    title: "Contact No.",
-    des: "Connect With Me On:- +918340311564",
-  },
-  {
-    id: 4,
-    icon: <IoLogoWhatsapp />,
-    title: "Whatsapp No.",
-    des: "Connect With Me On:- +917250255673",
   },
 ];

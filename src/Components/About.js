@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import ContactCard from "./ContactCard";
-import { Aboutdata } from "../Constants/AboutData";
+import { AboutData } from "../Constants/AboutData";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         <Title title="About Me" des="What I Do" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        {Aboutdata.map((item) => (
+        {AboutData.map((item) => (
           <ContactCard item={item} key={item.id} />
         ))}
       </div>
