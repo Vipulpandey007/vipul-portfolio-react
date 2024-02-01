@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vipul-portfolio-react/static/css/main.b3bd3ca5.css",
-    "main.js": "/vipul-portfolio-react/static/js/main.3f907d86.js",
+    "main.css": "/vipul-portfolio-react/static/css/main.bf89ff38.css",
+    "main.js": "/vipul-portfolio-react/static/js/main.6d4c7fd5.js",
     "static/js/787.7da95b79.chunk.js": "/vipul-portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/css.png": "/vipul-portfolio-react/static/media/css.8edd2c590de37632d16c.png",
     "static/media/js.png": "/vipul-portfolio-react/static/media/js.3dfb681e298da1982e8b.png",
@@ -14,12 +14,12 @@
     "static/media/Vipul_Resume.pdf": "/vipul-portfolio-react/static/media/Vipul_Resume.269cae767cfffe19ad46.pdf",
     "static/media/nr.jpg": "/vipul-portfolio-react/static/media/nr.b6c6b012438d41ec7151.jpg",
     "index.html": "/vipul-portfolio-react/index.html",
-    "main.b3bd3ca5.css.map": "/vipul-portfolio-react/static/css/main.b3bd3ca5.css.map",
-    "main.3f907d86.js.map": "/vipul-portfolio-react/static/js/main.3f907d86.js.map",
+    "main.bf89ff38.css.map": "/vipul-portfolio-react/static/css/main.bf89ff38.css.map",
+    "main.6d4c7fd5.js.map": "/vipul-portfolio-react/static/js/main.6d4c7fd5.js.map",
     "787.7da95b79.chunk.js.map": "/vipul-portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3bd3ca5.css",
-    "static/js/main.3f907d86.js"
+    "static/css/main.bf89ff38.css",
+    "static/js/main.6d4c7fd5.js"
   ]
 }
