@@ -1,6 +1,4 @@
 import { SiGmail } from "react-icons/si";
-import { IoCallSharp } from "react-icons/io5";
-import { IoLogoWhatsapp } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
