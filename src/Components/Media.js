@@ -7,6 +7,7 @@ import {
   FaBootstrap,
 } from "react-icons/fa";
 import { SiTailwindcss, SiGmail } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between  dark:text-white">
@@ -41,6 +42,9 @@ const Media = () => {
         <div className="flex gap-4">
           <span className="bannerIcon">
             <FaReact />
+          </span>
+          <span className="bannerIcon">
+            <TbBrandNextjs />
           </span>
           <span className="bannerIcon">
             <FaHtml5 />
