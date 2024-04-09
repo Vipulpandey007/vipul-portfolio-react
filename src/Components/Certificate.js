@@ -5,6 +5,7 @@ import react from "../Images/react.png";
 import css from "../Images/css.png";
 import js from "../Images/js.png";
 import nr from "../Images/nr.jpg";
+import frontend from "../Images/frontend.png";
 
 const Certificate = () => {
   return (
@@ -16,6 +17,12 @@ const Certificate = () => {
         <Title title="" des="Certifications" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectCard
+          title="Frontend Developer (React) Certificate
+          "
+          src={frontend}
+          link="https://www.hackerrank.com/certificates/c2f77e7b1d48"
+        />
         <ProjectCard
           title="Hackerrank ReactJs (Basic) Certificate"
           src={react}
