@@ -5,6 +5,7 @@ import tubevipul from "../Images/vipultube.png";
 import streamvideo from "../Images/stream-video.png";
 import gcran from "../Images/gcran.png";
 import food from "../Images/swiggy.png";
+import urltrim from "../Images/urltrimmer.png";
 
 const Project = () => {
   return (
@@ -16,6 +17,13 @@ const Project = () => {
         <Title title="" des="My Projects" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectCard
+          title="urlTrimmer"
+          des="Large scalable react app, It helps to trim your long url into short url or custom url according to your need, Authentication features added using Supabase."
+          src={urltrim}
+          link="https://urltrimmer.vercel.app/"
+          git="https://github.com/Vipulpandey007/urltrimmer"
+        />
         <ProjectCard
           title="Video Streaming App"
           des=" Highly efficient and high performance based video streaming react app just like youtube with all the features.
