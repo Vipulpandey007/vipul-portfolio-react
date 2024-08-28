@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/vipul-portfolio-react/static/css/main.a3de895e.css",
-    "main.js": "/vipul-portfolio-react/static/js/main.0fcc05f5.js",
+    "main.js": "/vipul-portfolio-react/static/js/main.e88a526f.js",
     "static/js/787.7da95b79.chunk.js": "/vipul-portfolio-react/static/js/787.7da95b79.chunk.js",
     "static/media/css.png": "/vipul-portfolio-react/static/media/css.8edd2c590de37632d16c.png",
     "static/media/js.png": "/vipul-portfolio-react/static/media/js.3dfb681e298da1982e8b.png",
     "static/media/gcran.png": "/vipul-portfolio-react/static/media/gcran.b8f351de5588c3124d9e.png",
     "static/media/react.png": "/vipul-portfolio-react/static/media/react.5d8195427c368999608b.png",
     "static/media/vipultube.png": "/vipul-portfolio-react/static/media/vipultube.d83ffeac508d5cc8f051.png",
+    "static/media/hireme.png": "/vipul-portfolio-react/static/media/hireme.5038a0fb71f7eb06fde0.png",
     "static/media/swiggy.png": "/vipul-portfolio-react/static/media/swiggy.bd28afa996309d3ebff6.png",
     "static/media/stream-video.png": "/vipul-portfolio-react/static/media/stream-video.135aeaeaec67d11603de.png",
     "static/media/frontend.png": "/vipul-portfolio-react/static/media/frontend.99b329887dc2e3f6447f.png",
@@ -17,11 +18,11 @@
     "static/media/nr.jpg": "/vipul-portfolio-react/static/media/nr.b6c6b012438d41ec7151.jpg",
     "index.html": "/vipul-portfolio-react/index.html",
     "main.a3de895e.css.map": "/vipul-portfolio-react/static/css/main.a3de895e.css.map",
-    "main.0fcc05f5.js.map": "/vipul-portfolio-react/static/js/main.0fcc05f5.js.map",
+    "main.e88a526f.js.map": "/vipul-portfolio-react/static/js/main.e88a526f.js.map",
     "787.7da95b79.chunk.js.map": "/vipul-portfolio-react/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3de895e.css",
-    "static/js/main.0fcc05f5.js"
+    "static/js/main.e88a526f.js"
   ]
 }
