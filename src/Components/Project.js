@@ -19,7 +19,7 @@ const Project = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectCard
           title="Hireme"
-          des="Large scalable react app, It can help you to find your dream job or you can post a job, Features like application tracking, rejecting application ,selecting application , saving application all have been implimented.  "
+          des="Large scalable react app, It can help you to find your dream job or you can post a job, Features like application tracking, rejecting application ,selecting application , saving application all have been implemented.  "
           src={hireme}
           link="https://hireme-mu.vercel.app/"
           git="https://github.com/Vipulpandey007/hireme"
